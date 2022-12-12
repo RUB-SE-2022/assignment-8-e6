@@ -1,0 +1,16 @@
+plugins {
+    id 'java'
+}
+
+group 'de.rub'
+version '1.0-SNAPSHOT'
+
+repositories {
+    mavenCentral()
+}
+
+dependencies {
+    implementation project(':plugins:Calculator')
+    implementation project(':plugins:Ping')
+    implementation project(':plugins:FileUploader')
+}

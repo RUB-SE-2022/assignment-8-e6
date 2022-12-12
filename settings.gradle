@@ -1,0 +1,9 @@
+rootProject.name = 'exercise8'
+include 'Framework'
+include 'plugins:Calculator'
+findProject(':plugins:Calculator')?.name = 'Calculator'
+include 'plugins:Ping'
+findProject(':plugins:Ping')?.name = 'Ping'
+include 'plugins:FileUploader'
+findProject(':plugins:FileUploader')?.name = 'FileUploader'
+
